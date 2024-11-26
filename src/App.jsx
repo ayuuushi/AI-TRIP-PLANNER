@@ -8,12 +8,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
     <>
-     <h2>welcome</h2> 
-    </>
-    <Button> Sub</Button>
+    <div>
+       {/* Hero */}
+       <Hero/>
     </div>
+    </>
   );
 }
 

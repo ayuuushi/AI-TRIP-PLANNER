@@ -2,7 +2,12 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className='p-2 shadow-sm'>
+      <img src='/logo.svg'/>
+      <div>
+        <Button>Sign In</Button>
+      </div>
+    </div>
   )
 }
 
